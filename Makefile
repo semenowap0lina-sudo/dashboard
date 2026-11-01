@@ -27,6 +27,9 @@ install-docs: # установка зависимостей для тестир�
 install-test: # установка зависимостей для сборки документации
 	pip install -e '.[test]'
 
+install-research: # установка зависимостей для учебного исследования
+	pip install -e '.[research]'
+
 # building the package
 
 build:
